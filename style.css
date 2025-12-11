@@ -1,0 +1,109 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #ffe6f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    color: #e60073;
+    padding: 20px;
+}
+
+.romantique img {
+    width: 300px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+.acceuil-container {
+    background-color: rgba(255, 255, 255, 0.2); 
+    /*        ^^^  ^^^  ^^^  ^^^
+              R    G     B    transparence (0 = transparent, 1 = opaque) */
+
+    padding: 50px;
+    border-radius: 15px;
+    width: 60%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color:#e60073;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+a:hover {
+    background-color: pink;
+}
+
+/* Login */
+.login-page {
+    margin-top: 0px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    min-height: 100vh;
+   background-image: url('images/se.jpg'); 
+    background-size: cover;       
+    background-position: center;  
+    background-repeat: no-repeat; 
+    color: white;}
+    
+
+
+.login-page input {
+    padding: 30px;
+    margin: 10px;
+    border-radius: 40px;
+    border: 1px solid #e60073;
+    width: 500px;
+}
+
+.login-page button {
+    padding: 30px 50px;
+    border: none;
+    border-radius: 50px;
+    background-color: #e60073;
+    color: white;
+    cursor: pointer;
+}
+
+#message {
+    color: red;
+    margin-top: 30px;
+}
+
+
+/* Tableau */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff0f5;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #e60073;
+    text-align: center;
+}
+
+th {
+    background-color: #e60073;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #ffe6f0;
+}
